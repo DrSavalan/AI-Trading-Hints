@@ -1,4 +1,5 @@
 # AI-Trading-Hints
+![image](https://github.com/user-attachments/assets/fcf6e937-a901-4d72-9bbc-5022365466ad)
 
 ## Table of Contents
 
