@@ -1,0 +1,27 @@
+# requirements.txt
+
+# GUI Framework
+Pillow==10.3.0  # For Image and ImageTk (PIL fork)
+tk==0.1.0 # This is a placeholder; Tkinter is usually built-in with Python,
+          # but some specialized environments might need a wrapper.
+          # If you face issues, you might remove this line.
+
+# OpenAI API client
+openai==1.35.13 # Or the specific version you are using
+
+# Environment variable management
+python-dotenv==1.0.0 # Or the specific version you are using
+
+# For handling numerical data and plotting (from your `create_and_save_candlestick_chart` function)
+# These are highly likely to be used by matplotlib and pandas
+matplotlib==3.9.0 # Or the specific version you are using
+pandas==2.2.2 # Or the specific version you are using
+numpy==1.26.4 # Often a dependency of pandas and matplotlib
+
+# For fetching cryptocurrency data (if `price_data.py` uses one)
+# Common choices include:
+# ccxt==4.3.0 # Highly probable if you're fetching crypto data from exchanges
+
+# Note: The exact versions above are examples based on recent releases around June 2025.
+# To get the precise versions you are using in your current environment,
+# run 'pip freeze > requirements.txt' in your activated virtual environment.
